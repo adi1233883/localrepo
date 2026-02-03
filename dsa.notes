@@ -1,0 +1,37 @@
+**linear search algorithem**
+ function linear_search(A, n, key)
+    index := 0
+    while index < n do
+        if A[index] == key then
+            return index
+        index := index + 1
+    return -1
+    ***linear search code ***
+     public class LinearSearch {
+
+    static int linearSearch(int[] A, int n, int key) {
+        int index = 0;
+
+        while (index < n) {
+            if (A[index] == key) {
+                return index;
+            }
+            index++;
+        }
+        return -1;
+    }
+
+    public static void main(String[] args) {
+        int[] A = {84, 21, 47, 96, 15};
+        int key = 100;
+
+        int result = linearSearch(A, A.length, key);
+
+        if (result == -1)
+            System.out.println("Element not found");
+        else
+            System.out.println("Element found at index " + result);
+    }
+}
+
+
