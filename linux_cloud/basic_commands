@@ -1,0 +1,23 @@
+#Basic Navigation & File Management#
+
+ls — list files and directories
+
+cd — change directory
+
+pwd — print current directory
+
+mkdir — make new directories
+
+rm — remove files/directories
+
+rmdir — remove empty directory
+
+cp — copy files
+
+mv — move or rename files
+
+touch — create empty file or update timestamp
+
+cat — display file contents
+
+head / tail — show start/end of files (likely covered)
